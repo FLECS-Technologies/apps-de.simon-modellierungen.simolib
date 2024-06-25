@@ -1,37 +1,17 @@
 {
     "$schema": "https://raw.githubusercontent.com/FLECS-Technologies/app-sdk/main/manifest.schema.json",
     "_schemaVersion": "2.0.0",
-    "app": "",
+    "app": "de.simon-modellierungen.simolib",
     "version": "##VERSION##",
     "revision": "0",
-    "image": "flecs.azurecr.io/",
+    "image": "flecs.azurecr.io/de.simon-modellierungen.simolib",
     "multiInstance": false,
     "editor": "",
-    "args": [
-        "--launch-arg-1",
-        "--launch-arg-2=8000"
-    ],
+    "args": [],
     "capabilities": [],
-    "conffiles": [
-        "default.conf:/etc/my-app/default.conf",
-        "default.conf:/etc/my-app/default.conf:ro",
-        "default.conf:/etc/my-app/default.conf:rw"
-    ],
-    "devices": [
-        "/dev/net/tun"
-    ],
-    "env": [
-        "MY_ENV=value"
-    ],
-    "ports": [
-        "12345:12345"
-    ],
-    "volumes": [
-        "my-app-etc:/etc/my-app",
-        "/var/lib/my-app:/var/lib/my-app"
-    ],
-    "labels": [
-        "org.my.label",
-        "org.my.label-with-value=Some custom label value"
-    ]
+    "conffiles": [],
+    "devices": [],
+    "env": ["LICENSE2=", "LICENSE4="],
+    "ports": [],
+    "volumes": []
 }

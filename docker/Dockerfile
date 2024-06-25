@@ -2,7 +2,7 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-FROM scratch:${VERSION}
+FROM docker.io/simonmodeling/simolib:${VERSION}
 
 ARG ARCH
 ARG VERSION
