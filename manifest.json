@@ -11,7 +11,9 @@
     "capabilities": [],
     "conffiles": [],
     "devices": [],
-    "env": ["LICENSE2=", "LICENSE4="],
+    "env": [],
     "ports": [],
-    "volumes": []
+    "volumes": [
+        "simolib:/etc/simolib"
+    ]
 }
